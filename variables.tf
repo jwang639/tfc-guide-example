@@ -1,3 +1,12 @@
+variable "AWS_ACCESS_KEY" {
+  default     = "AKIA5ECZKISPPY6W3JSD"
+  description = "aws access key that was created for terraform"
+}
+variable "AWS_SECRET_KEY" {
+  default     = "bAbRHjH88LzPhuwooz+ZdtduzhmCYCP2Dp5Lhec7"
+  description = "aws secret key that was created for terraform"
+}
+
 variable "region" {
   description = "AWS region"
   default     = "us-west-1"
@@ -12,4 +21,5 @@ variable "instance_name" {
   description = "EC2 instance name"
   default     = "Provisioned by Terraform"
 }
+
 
