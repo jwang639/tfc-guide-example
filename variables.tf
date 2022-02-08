@@ -19,7 +19,7 @@ variable "instance_type" {
 
 variable "instance_name" {
   description = "EC2 instance name"
-  default     = "instance_test1"
+  default     = "instance_test2"
 }
 
 
